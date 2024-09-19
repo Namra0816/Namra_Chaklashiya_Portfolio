@@ -19,6 +19,9 @@ import {
   gdsc,
   cifs,
   threejs,
+  mediconnect,
+  exercisefusion,
+  slms,
 } from "../assets";
 
 export const navLinks = [
@@ -152,7 +155,7 @@ const projects = [
   {
     name: "MediConnect",
     description:
-      "description",
+      "A healthcare patient management application for streamlined patient registration, appointment booking, and medical record management",
     tags: [
       {
         name: "next.js",
@@ -167,13 +170,13 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    // image: mediconnect,
+    image: mediconnect,
     source_code_link: "https://github.com/",
   },
   {
     name: "Exercise Fusion",
     description:
-    "description",
+    "ExerciseFusion is a fitness app for exploring exercises by category and muscle group, with real-time data integration via RapidAPI",
     tags: [
       {
         name: "react",
@@ -188,13 +191,13 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    // image: exercisefusion,
+    image: exercisefusion,
     source_code_link: "https://github.com/",
   },
   {
     name: "Staff Leave Management System",
     description:
-    "description",
+    "Staff Leave Management System is a solution to efficiently handle staff leave, department operations, tasks, and attendance",
     tags: [
       {
         name: "php",
@@ -206,7 +209,7 @@ const projects = [
       },
       
     ],
-    // image: slms,
+    image: slms,
     source_code_link: "https://github.com/",
   },
 ];

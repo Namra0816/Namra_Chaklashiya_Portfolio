@@ -25,6 +25,10 @@ import dayoff from "./company/dayoff.jpeg";
 import gdsc from "./company/gdsc.jpeg";
 import cifs from "./company/cifs.jpeg";
 
+import mediconnect from "./mediconnect.jpg";
+import exercisefusion from "./exercisefusion.jpg";
+import slms from "./slms.png";
+
 export {
   logo,
   backend,
@@ -50,4 +54,7 @@ export {
   dayoff,
   gdsc,
   cifs,
+  mediconnect,
+  exercisefusion,
+  slms,
 };
