@@ -119,11 +119,11 @@ const experiences = [
     company_name: "DayOff",
     icon: dayoff,
     iconBg: "#513cc9",
-    date: "June 2024 - Present",
+    date: "August 2024 - November 2024",
     points: [
-      "Developed and implemented an in-app notification system, allowing users to easily check updates within the app.",
-      "Contributed to the development of chat APIs and authentication APIs, enhancing security and efficiency, which reduced authentication errors by 10% and improved overall API response times by 15%.",
-      "Implemented a CRUD Trip Information Service to manage trip data, providing reliable and scalable operations for interacting with the trips database, reducing data management errors by 10%.",
+      "Developed and implemented an in-app notification system using Node.js and AWS SNS for real-time alerts, deployed on AWS EC2, enabling users to receive updates instantly within the app",
+      "Contributed to the development of chat and authentication APIs using Express.js and JWT, enhancing security protocols and improving API efficiency, which reduced authentication errors by 10% and boosted response times by 15%",
+      "Implemented a scalable CRUD Trip Information Service using Express.js and MongoDB, enabling efficient management of trip data and reducing data management errors by 10%",
     ],
   },
   {
@@ -131,22 +131,11 @@ const experiences = [
     company_name: "Google Developer Student Clubs",
     icon: gdsc,
     iconBg: "white",
-    date: "October 2022 - May 2024",
+    date: "October 2022 - Present",
     points: [
-      "Led interactive workshops on JavaScript, Python, Firebase, and GitHub, resulting in 90% participation from GDSC members and enhanced technical skills for the team.",
-      "Mentored and guided 15 team members through hands-on coding sessions, resulting in a 30% increase in proficiency in key programming languages and tools, leading to improved project efficiency and quality.",
-    ],
-  },
-  {
-    title: "Web Developer Intern",
-    company_name: "CIFS Code",
-    icon: cifs,
-    iconBg: "white",
-    date: "Feb 2021 - Aug 2022",
-    points: [
-      "Successfully drove a 25% surge in user engagement and improved user experience through the strategic application of web development frameworks like React and Vue.js.",
-      "Utilized MySQL and MongoDB to implement and manage databases, resulting in a 20% increase in data retrieval efficiency for captivating web applications, ultimately improving website responsiveness and user engagement.",
-      "Improved web application performance by 15% through optimizing Node.js and React code, resulting in faster page load times and increased user satisfaction.",
+      "Led interactive workshops on JavaScript, Python, Firebase, and GitHub, resulting in 90% participation from GDSC members and enhanced technical skills for the team",
+      "Mentored 15 team members through structured, hands-on coding sessions in JavaScript and Python, resulting in a 30% increase in proficiency in these languages programming languages, leading to improved project efficiency and quality",
+      "Organized and executed coding competitions and hackathons, cultivating a collaborative environment that encouraged practical problem-solving skills among participants"
     ],
   },
 ];
