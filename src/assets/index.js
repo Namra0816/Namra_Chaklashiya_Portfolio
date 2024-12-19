@@ -26,6 +26,7 @@ import gdsc from "./company/gdsc.jpeg";
 import cifs from "./company/cifs.jpeg";
 
 import mediconnect from "./mediconnect.jpg";
+import metafinance from "./metafinance.jpg"
 import exercisefusion from "./exercisefusion.jpg";
 import slms from "./slms.png";
 
@@ -55,6 +56,7 @@ export {
   gdsc,
   cifs,
   mediconnect,
+  metafinance,
   exercisefusion,
   slms,
 };
