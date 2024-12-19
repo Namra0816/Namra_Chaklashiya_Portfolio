@@ -19,6 +19,7 @@ import {
   gdsc,
   threejs,
   mediconnect,
+  metafinance,
   exercisefusion,
   slms,
 } from "../assets";
@@ -163,6 +164,27 @@ const projects = [
       },
     ],
     image: mediconnect,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "MetaFinance",
+    description:
+      "A healthcare patient management application for streamlined patient registration, appointment booking, and medical record management",
+    tags: [
+      {
+        name: "next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: metafinance,
     source_code_link: "https://github.com/",
   },
   {
