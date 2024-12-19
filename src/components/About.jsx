@@ -47,7 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        Hi, I'm Namra Chaklashiya—a coder with a mission to turn complex problems into seamless, user-friendly solutions. 
+        Hi, I'm Namra Chaklashiya—a coder with a mission to turn complex problems into user-friendly solutions. 
         If you're looking for someone who thinks beyond the binary, who blends creativity with technical process, 
         and who's ready to redefine what's possible in software engineering—I'm your person.
       </motion.p>
