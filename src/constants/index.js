@@ -17,7 +17,6 @@ import {
   python,
   dayoff,
   gdsc,
-  cifs,
   threejs,
   mediconnect,
   exercisefusion,
@@ -33,6 +32,10 @@ export const navLinks = [
     id: "work",
     title: "Work",
   },
+  // {
+  //   id: "resume",
+  //   title: "Resume",
+  // },
   {
     id: "contact",
     title: "Contact",
@@ -41,19 +44,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "AI Innovator",
     icon: web,
   },
   {
-    title: "Python Developer",
+    title: "ML Architect",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Software Developer",
     icon: backend,
   },
   {
-    title: "Diving into Data Science",
+    title: "Web Developer",
     icon: creator,
   },
 ];
