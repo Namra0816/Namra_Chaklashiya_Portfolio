@@ -26,7 +26,9 @@ import gdsc from "./company/gdsc.jpeg";
 import cifs from "./company/cifs.jpeg";
 
 import mediconnect from "./mediconnect.jpg";
-import metafinance from "./metafinance.jpg"
+import metafinance from "./metafinance.jpg";
+import cancercatalyst from "./cancercatalyst.jpeg";
+import cryptchain from "./cryptchain.png";
 import exercisefusion from "./exercisefusion.jpg";
 import slms from "./slms.png";
 
@@ -57,6 +59,8 @@ export {
   cifs,
   mediconnect,
   metafinance,
+  cancercatalyst,
+  cryptchain,
   exercisefusion,
   slms,
 };

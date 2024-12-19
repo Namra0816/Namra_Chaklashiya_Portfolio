@@ -20,6 +20,8 @@ import {
   threejs,
   mediconnect,
   metafinance,
+  cancercatalyst,
+  cryptchain,
   exercisefusion,
   slms,
 } from "../assets";
@@ -146,6 +148,27 @@ const experiences = [
 
 const projects = [
   {
+    name: "CryptChain",
+    description:
+      "A decentralized Web 3.0 Ethereum transaction portal with real-time blockchain integration, secure MetaMask wallet connections, and transparent transaction tracking via Etherscan",
+    tags: [
+      {
+        name: "web3",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "solidity",
+        color: "green-text-gradient",
+      },
+      {
+        name: "ethers.js",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: cryptchain,
+    source_code_link: "https://github.com/",
+  },
+  {
     name: "MediConnect",
     description:
       "A healthcare patient management application for streamlined patient registration, appointment booking, and medical record management",
@@ -169,22 +192,43 @@ const projects = [
   {
     name: "MetaFinance",
     description:
-      "A healthcare patient management application for streamlined patient registration, appointment booking, and medical record management",
+      "A real-time financial dashboard integrating multi-bank accounts, secure fund transfers, and spending insights for seamless financial management",
     tags: [
       {
-        name: "next.js",
+        name: "typescript",
         color: "blue-text-gradient",
       },
       {
-        name: "react.js",
+        name: "plaidsdk",
         color: "green-text-gradient",
       },
       {
-        name: "typescript",
+        name: "dwolla",
         color: "pink-text-gradient",
       },
     ],
     image: metafinance,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "CancerCatalyst",
+    description:
+      "An AI-powered cancer care platform offering personalized treatment plans, real-time diagnostic tools, and a user-friendly dashboard for efficient patient management",
+    tags: [
+      {
+        name: "geminiai",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "rpostgresql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: cancercatalyst,
     source_code_link: "https://github.com/",
   },
   {
