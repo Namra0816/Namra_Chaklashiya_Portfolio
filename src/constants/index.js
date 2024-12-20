@@ -231,27 +231,27 @@ const projects = [
     image: cancercatalyst,
     source_code_link: "https://github.com/",
   },
-  {
-    name: "Exercise Fusion",
-    description:
-    "ExerciseFusion is a fitness app for exploring exercises by category and muscle group, with real-time data integration via RapidAPI",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "html/css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: exercisefusion,
-    source_code_link: "https://github.com/",
-  },
+  // {
+  //   name: "Exercise Fusion",
+  //   description:
+  //   "ExerciseFusion is a fitness app for exploring exercises by category and muscle group, with real-time data integration via RapidAPI",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "javascript",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "html/css",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: exercisefusion,
+  //   source_code_link: "https://github.com/",
+  // },
   {
     name: "Staff Leave Management System",
     description:
