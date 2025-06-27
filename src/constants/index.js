@@ -22,7 +22,7 @@ import {
   metafinance,
   cancercatalyst,
   cryptchain,
-  exercisefusion,
+  // exercisefusion,
   slms,
 } from "../assets";
 
@@ -127,9 +127,9 @@ const experiences = [
     iconBg: "#513cc9",
     date: "August 2024 - November 2024",
     points: [
-      "Developed and implemented an in-app notification system using Node.js and AWS SNS for real-time alerts, deployed on AWS EC2, enabling users to receive updates instantly within the app",
-      "Contributed to the development of chat and authentication APIs using Express.js and JWT, enhancing security protocols and improving API efficiency, which reduced authentication errors by 10% and boosted response times by 15%",
-      "Implemented a scalable CRUD Trip Information Service using Express.js and MongoDB, enabling efficient management of trip data and reducing data management errors by 10%",
+      "Built a real-time in-app notification system using Node.js and AWS SNS, deployed on EC2, delivering instant trip alerts",
+      "Developed secure chat and authentication APIs with Express.js and JWT, reducing authorization errors by 10% and improving API response times by 15% across multiple endpoints",
+      "Designed a scalable trip management API using Express.js and MongoDB, enabling efficient real-time CRUD operations while reducing data errors by 10% during high-traffic usage",
     ],
   },
   {
@@ -139,9 +139,9 @@ const experiences = [
     iconBg: "white",
     date: "October 2022 - Present",
     points: [
-      "Led interactive workshops on JavaScript, Python, Firebase, and GitHub, resulting in 90% participation from GDSC members and enhanced technical skills for the team",
-      "Mentored 15 team members through structured, hands-on coding sessions in JavaScript and Python, resulting in a 30% increase in proficiency in these languages programming languages, leading to improved project efficiency and quality",
-      "Organized and executed coding competitions and hackathons, cultivating a collaborative environment that encouraged practical problem-solving skills among participants"
+      "Mentored 15 team members through structured, hands-on coding sessions in JavaScript and Python, resulting in a 30% increase in programming proficiency and delivering 7+ end-to-end projects",
+      "Led interactive workshops on GitHub, Firebase, and LinkedIn, resulting in 90% participation from GDSC members and enhanced technical skills for the team",
+      "Organized coding competitions and hackathons, creating a culture of collaboration and problem-solving among 40+ student developers to give them a taste of real-world challenges and team dynamics"
     ],
   },
 ];
