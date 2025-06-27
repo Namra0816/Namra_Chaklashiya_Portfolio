@@ -48,14 +48,14 @@ const CanvasLoader = () => {
       <span className='canvas-loader'></span>
       <p
         style={{
-          fontSize: 16,
+          fontSize: 17,
           color: "#F1F1F1",
           fontWeight: 800,
           marginTop: 50,
           textAlign: "center",
         }}
       >
-        Checking system health
+        Activating machine intelligence...
       </p>
     </Html>
   );
