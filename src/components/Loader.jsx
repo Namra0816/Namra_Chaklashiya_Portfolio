@@ -55,7 +55,7 @@ const CanvasLoader = () => {
           textAlign: "center",
         }}
       >
-        Activating machine intelligence...
+        Waking up Intelligence...
       </p>
     </Html>
   );
