@@ -15,6 +15,7 @@ import {
   figma,
   docker,
   python,
+  csulb,
   dayoff,
   gdsc,
   threejs,
@@ -121,6 +122,18 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Data Engineer",
+    company_name: "California State University, Long Beach",
+    icon: csulb,
+    iconBg: "white",
+    date: "June 2025 - Present",
+    points: [
+      "Built data pipelines integrating around 25k records from EV chargers, shuttle GPS logs, campus bike sharing, and parking permit data, enabling real-time analytics dashboards used for carbon savings and usage forecasting",
+      "Designed relational database schemas and backend data models for BeachGO, powering commute planning and supporting core features like user preferences, carpool matching, carbon tracking, and reward eligibility",
+      "Analyzed 5 years of sustainable transportation data to model mode efficiency and identify 15–20% underutilization zones on campus, contributing to ongoing research on carbon offset maximization and infrastructure planning",
+    ],
+  },
+  {
     title: "Software Engineer Intern",
     company_name: "DayOff",
     icon: dayoff,
@@ -137,7 +150,7 @@ const experiences = [
     company_name: "Google Developer Student Clubs",
     icon: gdsc,
     iconBg: "white",
-    date: "October 2022 - Present",
+    date: "October 2022 - May 2025",
     points: [
       "Mentored 15 team members through structured, hands-on coding sessions in JavaScript and Python, resulting in a 30% increase in programming proficiency and delivering 7+ end-to-end projects",
       "Led interactive workshops on GitHub, Firebase, and LinkedIn, resulting in 90% participation from GDSC members and enhanced technical skills for the team",

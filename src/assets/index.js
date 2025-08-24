@@ -21,6 +21,7 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import python from "./tech/python.png";
 
+import csulb from "./company/csulb.jpeg"
 import dayoff from "./company/dayoff.jpeg";
 import gdsc from "./company/gdsc.jpeg";
 import cifs from "./company/cifs.jpeg";
@@ -54,6 +55,7 @@ export {
   typescript,
   threejs,
   python,
+  csulb,
   dayoff,
   gdsc,
   cifs,
