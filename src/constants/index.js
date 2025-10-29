@@ -47,20 +47,20 @@ export const navLinks = [
 ];
 
 const services = [
+  // {
+  //   title: "AI Innovator",
+  //   icon: web,
+  // },
   {
-    title: "AI Innovator",
-    icon: web,
-  },
-  {
-    title: "ML Architect",
+    title: "AI Engineer",
     icon: mobile,
   },
+  // {
+  //   title: "Software Developer",
+  //   icon: backend,
+  // },
   {
     title: "Software Developer",
-    icon: backend,
-  },
-  {
-    title: "Web Developer",
     icon: creator,
   },
 ];
@@ -122,15 +122,27 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Data Engineer",
+    title: "Software Engineer",
     company_name: "California State University, Long Beach",
     icon: csulb,
     iconBg: "white",
     date: "June 2025 - Present",
     points: [
-      "Built data pipelines integrating around 25k records from EV chargers, shuttle GPS logs, campus bike sharing, and parking permit data, enabling real-time analytics dashboards used for carbon savings and usage forecasting",
-      "Designed relational database schemas and backend data models for BeachGO, powering commute planning and supporting core features like user preferences, carpool matching, carbon tracking, and reward eligibility",
+      "Built backend systems that combine data from EV chargers, shuttle GPS logs, bike sharing, and parking permits, handling over 25,000 records for BeachGO, the university’s commute platform",
       "Analyzed 5 years of sustainable transportation data to model mode efficiency and identify 15–20% underutilization zones on campus, contributing to ongoing research on carbon offset maximization and infrastructure planning",
+      "Designed database schemas in PostgreSQL and developed REST APIs in Node.js to support features such as route planning, carpool matching, and carbon tracking on BeachGO app",
+    ],
+  },
+  {
+    title: "Technical Lead",
+    company_name: "Google Developer Student Clubs",
+    icon: gdsc,
+    iconBg: "white",
+    date: "January 2024 - May 2025",
+    points: [
+      "Mentored 15 team members through structured, hands-on coding sessions in JavaScript and Python, resulting in a 30% increase in programming proficiency and delivering 7+ end-to-end projects",
+      "Led interactive workshops on GitHub, Firebase, and LinkedIn, resulting in 90% participation from GDSC members and enhanced technical skills for the team",
+      "Organized coding competitions and hackathons, creating a culture of collaboration and problem-solving among 40+ student developers to give them a taste of real-world challenges and team dynamics"
     ],
   },
   {
@@ -143,18 +155,6 @@ const experiences = [
       "Built a real-time in-app notification system using Node.js and AWS SNS, deployed on EC2, delivering instant trip alerts",
       "Developed secure chat and authentication APIs with Express.js and JWT, reducing authorization errors by 10% and improving API response times by 15% across multiple endpoints",
       "Designed a scalable trip management API using Express.js and MongoDB, enabling efficient real-time CRUD operations while reducing data errors by 10% during high-traffic usage",
-    ],
-  },
-  {
-    title: "Technical Lead",
-    company_name: "Google Developer Student Clubs",
-    icon: gdsc,
-    iconBg: "white",
-    date: "October 2022 - May 2025",
-    points: [
-      "Mentored 15 team members through structured, hands-on coding sessions in JavaScript and Python, resulting in a 30% increase in programming proficiency and delivering 7+ end-to-end projects",
-      "Led interactive workshops on GitHub, Firebase, and LinkedIn, resulting in 90% participation from GDSC members and enhanced technical skills for the team",
-      "Organized coding competitions and hackathons, creating a culture of collaboration and problem-solving among 40+ student developers to give them a taste of real-world challenges and team dynamics"
     ],
   },
 ];
