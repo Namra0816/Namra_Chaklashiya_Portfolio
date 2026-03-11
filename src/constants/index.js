@@ -16,8 +16,10 @@ import {
   docker,
   python,
   csulb,
-  dayoff,
-  gdsc,
+  capitalOne,
+  payPal,
+  // dayoff,
+  // gdsc,
   threejs,
   mediconnect,
   metafinance,
@@ -52,7 +54,7 @@ const services = [
   //   icon: web,
   // },
   {
-    title: "AI Engineer",
+    title: "Software Developer",
     icon: mobile,
   },
   // {
@@ -60,7 +62,7 @@ const services = [
   //   icon: backend,
   // },
   {
-    title: "Software Developer",
+    title: "AI Engineer",
     icon: creator,
   },
 ];
@@ -126,7 +128,7 @@ const experiences = [
     company_name: "California State University, Long Beach",
     icon: csulb,
     iconBg: "white",
-    date: "June 2025 - Present",
+    date: "September 2025 - February 2026",
     points: [
       "Built backend systems that combine data from EV chargers, shuttle GPS logs, bike sharing, and parking permits, handling over 25,000 records for BeachGO, the university’s commute platform",
       "Analyzed 5 years of sustainable transportation data to model mode efficiency and identify 15–20% underutilization zones on campus, contributing to ongoing research on carbon offset maximization and infrastructure planning",
@@ -134,29 +136,67 @@ const experiences = [
     ],
   },
   {
-    title: "Technical Lead",
-    company_name: "Google Developer Student Clubs",
-    icon: gdsc,
-    iconBg: "white",
-    date: "January 2024 - May 2025",
+    title: "Software Engineer Intern",
+    company_name: "Capital One",
+    icon: capitalOne,
+    iconBg: "#013e5b",
+    date: "June 2025 - August 2025",
     points: [
-      "Mentored 15 team members through structured, hands-on coding sessions in JavaScript and Python, resulting in a 30% increase in programming proficiency and delivering 7+ end-to-end projects",
-      "Led interactive workshops on GitHub, Firebase, and LinkedIn, resulting in 90% participation from GDSC members and enhanced technical skills for the team",
-      "Organized coding competitions and hackathons, creating a culture of collaboration and problem-solving among 40+ student developers to give them a taste of real-world challenges and team dynamics"
+      "Built an internal Card Tech platform adopted by 50+ application teams to streamline security compliance tracking",
+      "Implemented ETL pipelines from Snowflake using Apache Airflow, AWS Glue and Step Functions to track vulnerabilities across 165,000 internal repositories, reducing high-severity vulnerability counts by 63% over the platform’s lifetime",
+      "Developed a real-time global alerting system in React for 1,000+ daily active users to notify teams of container volume increases, extending GraphQL APIs and adding PostgreSQL tables to store active alerts and history",
+      "Delivered an admin panel in React to manage alerts and FAQs without code changes, cutting the end-to-end update process from 2.75 hours (including build time) to about 1 minute",
     ],
   },
   {
     title: "Software Engineer Intern",
-    company_name: "DayOff",
-    icon: dayoff,
-    iconBg: "#513cc9",
-    date: "August 2024 - November 2024",
+    company_name: "PayPal",
+    icon: payPal,
+    iconBg: "white",
+    date: "June 2024 - August 2024",
     points: [
-      "Built a real-time in-app notification system using Node.js and AWS SNS, deployed on EC2, delivering instant trip alerts",
-      "Developed secure chat and authentication APIs with Express.js and JWT, reducing authorization errors by 10% and improving API response times by 15% across multiple endpoints",
-      "Designed a scalable trip management API using Express.js and MongoDB, enabling efficient real-time CRUD operations while reducing data errors by 10% during high-traffic usage",
+      "Led development of a full-stack Merchant Partner Product Quality suite to store, filter, and visualize 10,000+ quality signals for PayPal partners (including Meta and Shopify) across 15+ countries using Raptor, Next.js, and Spring Boot",
+      "Automated the test execution and reporting workflow by integrating Jenkins pipelines with TestRail, replacing manual QA flows and significantly boosting overall productivity by 40%",
+      "Developed a “live issues” intelligence pipeline using traditional ML and Meta’s Llama to summarize 500+ incident reports and surface recurring patterns (e.g., webhook failures), accelerating root-cause discovery by 2x for the team",
     ],
   },
+  
+  // {
+  //   title: "Software Engineer",
+  //   company_name: "California State University, Long Beach",
+  //   icon: csulb,
+  //   iconBg: "white",
+  //   date: "June 2025 - Present",
+  //   points: [
+  //     "Built backend systems that combine data from EV chargers, shuttle GPS logs, bike sharing, and parking permits, handling over 25,000 records for BeachGO, the university’s commute platform",
+  //     "Analyzed 5 years of sustainable transportation data to model mode efficiency and identify 15–20% underutilization zones on campus, contributing to ongoing research on carbon offset maximization and infrastructure planning",
+  //     "Designed database schemas in PostgreSQL and developed REST APIs in Node.js to support features such as route planning, carpool matching, and carbon tracking on BeachGO app",
+  //   ],
+  // },
+  // {
+  //   title: "Technical Lead",
+  //   company_name: "Google Developer Student Clubs",
+  //   icon: gdsc,
+  //   iconBg: "white",
+  //   date: "January 2024 - May 2025",
+  //   points: [
+  //     "Mentored 15 team members through structured, hands-on coding sessions in JavaScript and Python, resulting in a 30% increase in programming proficiency and delivering 7+ end-to-end projects",
+  //     "Led interactive workshops on GitHub, Firebase, and LinkedIn, resulting in 90% participation from GDSC members and enhanced technical skills for the team",
+  //     "Organized coding competitions and hackathons, creating a culture of collaboration and problem-solving among 40+ student developers to give them a taste of real-world challenges and team dynamics"
+  //   ],
+  // },
+  // {
+  //   title: "Software Engineer Intern",
+  //   company_name: "DayOff",
+  //   icon: dayoff,
+  //   iconBg: "#513cc9",
+  //   date: "August 2024 - November 2024",
+  //   points: [
+  //     "Built a real-time in-app notification system using Node.js and AWS SNS, deployed on EC2, delivering instant trip alerts",
+  //     "Developed secure chat and authentication APIs with Express.js and JWT, reducing authorization errors by 10% and improving API response times by 15% across multiple endpoints",
+  //     "Designed a scalable trip management API using Express.js and MongoDB, enabling efficient real-time CRUD operations while reducing data errors by 10% during high-traffic usage",
+  //   ],
+  // },
 ];
 
 const projects = [

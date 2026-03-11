@@ -21,10 +21,16 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import python from "./tech/python.png";
 
+// import ai1 from "./ai1.png";
+// import ml1 from "./ml1.png";
+
+
 import csulb from "./company/csulb.jpeg"
-import dayoff from "./company/dayoff.jpeg";
-import gdsc from "./company/gdsc.jpeg";
-import cifs from "./company/cifs.jpeg";
+import capitalOne from "./company/capitalone.jpeg"
+import payPal from "./company/paypal.jpeg"
+// import dayoff from "./company/dayoff.jpeg";
+// import gdsc from "./company/gdsc.jpeg";
+// import cifs from "./company/cifs.jpeg";
 
 import mediconnect from "./mediconnect.jpg";
 import metafinance from "./metafinance.jpg";
@@ -55,10 +61,14 @@ export {
   typescript,
   threejs,
   python,
+  // ai1,
+  // ml1,
   csulb,
-  dayoff,
-  gdsc,
-  cifs,
+  capitalOne,
+  payPal,
+  // dayoff,
+  // gdsc,
+  // cifs,
   mediconnect,
   metafinance,
   cancercatalyst,
